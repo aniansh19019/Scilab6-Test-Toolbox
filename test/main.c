@@ -2,6 +2,8 @@
 #include"trans.h"
 #include<stdlib.h>
 
+// this file has been modified for task 2
+
 void display_matrix(double* A, int m, int n)
 {
     printf("{\n");
@@ -23,15 +25,17 @@ void display_matrix(double* A, int m, int n)
 int main()
 {
     // example test case
-    const int M = 4;
+    const int M = 2;
     const int N = 4;
 
-    double A[4][4] = { {1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16} };
+    double A[2][4] = { {1,2,3,4}, {5,6,7,8}};
+
+    double* B = (double*)malloc(sizeof(A));
 
     printf("Before Transpose:\n\n");
     display_matrix((double*)A, M, N);
     
-    double* B = trans((double*)A, M, N);
+    B = trans((double*)A, B, M, N);
     
     printf("After Transpose:\n\n");
     display_matrix(B, N, M);

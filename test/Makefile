@@ -1,11 +1,11 @@
-main: main.o trans.o
-	gcc -o main main.o trans.o
+main: main.o libtrans.so
+	gcc -L$(shell pwd) -Wl,-rpath=$(shell pwd) -o main main.c -ltrans -g
+
+libtrans.so: trans.o
+	gcc -shared -o libtrans.so trans.o
 
 trans.o: trans.c
-	gcc -c -o trans.o trans.c
-
-main.o: main.c
-	gcc -c -o main.o main.c
+	gcc -fPIC -c -o trans.o trans.c
 
 clean:
-	rm -f main main.o trans.o
+	rm -f main main.o trans.o libtrans.so

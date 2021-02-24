@@ -5,6 +5,7 @@
 <tocitem target="section_071b5cc4aac4b77c76250496741afd4c" text="test_toolbox">
 <tocitem target="add" text="add"/>
 <tocitem target="multiply" text="multiply"/>
+<tocitem target="transpose" text="transpose"/>
 </tocitem>
 </tocitem>
 </toc>

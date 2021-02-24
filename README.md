@@ -5,3 +5,21 @@ This toolbox overall demonstrates
 2. How to add a function defined in Scilab in Scilab
 3. How to write help for the added functions
 4. How to create a toolbox out of the above functions.
+
+# Instructions for running a demo
+To compile the transpose library, use the following instructions:
+
+```
+cd ~/
+git clone https://github.com/aniansh19019/Scilab6-Test-Toolbox
+cd Scilab6-Test-Toolbox
+cd test
+./run.sh
+```
+
+To load and test the library, open scilab gui and execute the Scilab6-Test-Toolbox/test/demo/transpose_demo.sce script.
+
+```
+cd ~/Scilab6-Test-Toolbox/test/demo
+exec transpose_demo.sce
+```
