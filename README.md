@@ -23,3 +23,5 @@ To load and test the library, open scilab gui and execute the Scilab6-Test-Toolb
 cd ~/Scilab6-Test-Toolbox/test/demo
 exec transpose_demo.sce
 ```
+
+(This assumes that the repository has been downloaded to the home folder!)
