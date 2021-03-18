@@ -7,7 +7,7 @@ This toolbox overall demonstrates
 4. How to create a toolbox out of the above functions.
 
 # Instructions for running a demo
-To compile the transpose library, use the following instructions:
+To compile the transpose library on Linux and Mac OS, use the following instructions:
 
 ```
 cd ~/
@@ -17,11 +17,7 @@ cd test
 ./run.sh
 ```
 
-To load and test the library, open scilab gui and execute the Scilab6-Test-Toolbox/test/demo/transpose_demo.sce script.
+To compile the library on Windows OS, execute the `test\run.bat` batch file.
 
-```
-cd ~/Scilab6-Test-Toolbox/test/demo
-exec transpose_demo.sce
-```
+To load and test the library, open scilab gui and execute the `Scilab6-Test-Toolbox/test/demo/transpose_demo.sce` script.
 
-(This assumes that the repository has been downloaded to the home folder!)
