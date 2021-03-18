@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book [
 <!--Begin Entities-->
-<!ENTITY a2b491eec9767186073cfc1924c4065d4 SYSTEM "/home/aniansh/FOSSE/Scilab6-Test-Toolbox/help/en_US/add.xml">
-<!ENTITY a393ecc9f09492e6619ea0f3c4c737550 SYSTEM "/home/aniansh/FOSSE/Scilab6-Test-Toolbox/help/en_US/multiply.xml">
-<!ENTITY ab9f0aeda0d06439ab580bf2a0ddc9e61 SYSTEM "/home/aniansh/FOSSE/Scilab6-Test-Toolbox/help/en_US/transpose.xml">
+<!ENTITY a5e24080cda7614c2f7c1b6c7f4217e30 SYSTEM "file:///C:/Users/Aniansh/Desktop/Scilab6-Test-Toolbox/help/en_US/add.xml">
+<!ENTITY a819ed0fe4721b45c253ebdbe28b73c4b SYSTEM "file:///C:/Users/Aniansh/Desktop/Scilab6-Test-Toolbox/help/en_US/multiply.xml">
+<!ENTITY a26036bfacd02c5d06d7dbb003457f1f5 SYSTEM "file:///C:/Users/Aniansh/Desktop/Scilab6-Test-Toolbox/help/en_US/transpose.xml">
 <!--End Entities-->
 ]>
 <book version="5.0-subset Scilab" xml:lang="en_US"
@@ -18,10 +18,10 @@
     <title>test_toolbox</title>
   </info>
 
-<part xml:id='section_071b5cc4aac4b77c76250496741afd4c'>
+<part xml:id='section_78eeccaedde265a7fbc6b6366d5001de'>
 <title>test_toolbox</title>
-&a2b491eec9767186073cfc1924c4065d4;
-&a393ecc9f09492e6619ea0f3c4c737550;
-&ab9f0aeda0d06439ab580bf2a0ddc9e61;
+&a5e24080cda7614c2f7c1b6c7f4217e30;
+&a819ed0fe4721b45c253ebdbe28b73c4b;
+&a26036bfacd02c5d06d7dbb003457f1f5;
 </part>
 </book>
